@@ -3,9 +3,9 @@ Detects patients with >3 claims in the past year — adaptable for clearinghouse
 # High-Frequency Claims Detection – SQL Demo
 
 ## Overview
-This project demonstrates how to identify patients with more than three claims in the past 12 months.  
-In a healthcare clearinghouse context, this logic can be adapted to flag high-volume claim submitters, detect unusual patterns, or trigger compliance reviews before claims are routed to payers.  
-While this demo runs in SQLite, the logic is portable to enterprise environments using AWS (RDS/Redshift), Python ETL scripts, .NET applications, and secure transfer solutions like Axway or MOVEit — all while maintaining HIPAA compliance.
+This is a simple SQL project I built to show how you can spot patients who’ve had more than three claims in the past year. In a real healthcare clearinghouse, this kind of check could help flag high‑volume claim submitters, catch unusual patterns, or send certain claims to compliance for review before they go to the payer.
+
+I’m running the demo in SQLite because it’s lightweight and easy to share, but the same logic could be used in bigger, enterprise setups — like AWS (RDS or Redshift), inside Python ETL scripts, in .NET applications, or as part of a secure file transfer process with tools like Axway or MOVEit. And of course, everything would be handled in a HIPAA‑compliant way.
 
 ## Tech Stack Awareness
 - **SQLite** for the demo (portable to PostgreSQL, SQL Server, AWS RDS)
